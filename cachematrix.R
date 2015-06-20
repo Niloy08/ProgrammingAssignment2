@@ -4,7 +4,7 @@
 ##This function creates a special "matrix" 
 ## that can cache its inverse
 
-makeCacheMatrix <- function(x = matrix())  {
+makeCacheMatrix <- function(mtx = matrix())  {
     inverse <- NULL
     set <- function(x) {
         mtx <<- x;
